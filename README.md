@@ -1,11 +1,11 @@
-= Updater
+# Updater
 
-An updater for Simple Web-Based, Git-Based Projects
+An updater for simple web-based, git-based projects.
 
 Author: Stoney Jackson (dr.stoney@gmail.com)
 License: LGPL V3 (http://www.gnu.org/licenses/lgpl.html)
 
-== Might be for you if ...
+## Might be for you if ...
 
 * You use git.
 * You have a simple web-based project.
@@ -16,14 +16,14 @@ License: LGPL V3 (http://www.gnu.org/licenses/lgpl.html)
 * You want a more automated way to update deployements to the most resent
   release.
 
-== Requires
+## Requires
 
 * bash (developed with GNU bash, version 4.2)
 * PHP if web access is desired (developed with 5.4)
 * git (developed with version 1.8)
 * ssh (developed with OpenSSH 6.2)
 
-== Install
+## Install
 
 Copy src/ to your project and give it an appropriate name (updater here).
 
@@ -55,11 +55,11 @@ in .ssh/authorized-keys on the server hosting the git repository.
 
     $ ssh-keygen -t rsa -C "deployment-key" -f deployment-key
 
-== Using Updater via Web
+## Using Updater via Web
 
 Point browser to deployed/updater
 
-== Apply Patch Created by `git format-patch` via Web
+## Apply Patch Created by `git format-patch` via Web
 
 Point browser to deployed/updater/patch.php
 
